@@ -1,3 +1,9 @@
+cd C:\Users\lovek\Documents\Codex\2026-05-28\read-https-selfclaw-ai-skill-md
+$env:NODE_OPTIONS="--use-system-ca"
+npm.cmd install --cache .\.npm-cache
+node cli.mjs agent:check
+node cli.mjs hosted:status
+
 # Bankr Skills. Build your agent.
 
 Bankr Skills equip builders with plug-and-play tools to build more powerful agents.
